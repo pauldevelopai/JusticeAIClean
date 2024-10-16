@@ -26,7 +26,7 @@ openai.api_key = OPENAI_API_KEY
 client = openai
 
 # Set up Google Cloud Speech client
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "credentials/podapp-432105-5225ff04ef25.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "credentials/podapp-432105-588c6b8fc338.json"
 speech_client = speech.SpeechClient()  # Renamed to avoid conflict with OpenAI client
 
 # Set up SQLAlchemy
