@@ -3,3 +3,4 @@ venv/
 /*.db
 credentials/
 /*.mp3
+.DS_Store
